@@ -1,0 +1,344 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    position: relative;
+    display:flex;
+    height: 1461px;
+    width: 1440px;
+    top:5px;
+    left: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    position: absolute;
+    width: 98px;
+    height: 82px;
+    left: 117px;
+    top: 14px;
+}
+.team{
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 485px;
+    top: 14px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color:#4E5DC0;
+    text-decoration: underline;
+}
+.aboutus{
+    position: absolute;
+    width: 79px;
+    height: 20px;
+    left: 608px;
+    top: 14px; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color:#777C85;
+}
+.courses{
+position: absolute;
+width: 70px;
+height: 20px;
+left: 754px;
+top: 14px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color:#777C85;
+}
+.contact{
+    position: absolute;
+width: 68px;
+height: 20px;
+left: 898px;
+top: 14px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color:#777C85;
+}
+.btn{
+    position: absolute;
+width: 150px;
+height: 24px;
+left: 1200px;
+top: 30px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background-color: #4E5DC0;
+}
+.codehelp{
+    position: absolute;
+width: 312px;
+height: 45px;
+left: 117px;
+top: 266px;
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 45px;
+color: #16171C;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+text-decoration: underline;
+}
+.desc{
+    position: absolute;
+width: 573px;
+height: 272px;
+left: 117px;
+top: 373px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+opacity: 0.5;
+}
+.b1{
+    position: absolute;
+width: 570px;
+height: 427px;
+left: 800px;
+top: 266px;
+}
+.b2{
+    position: absolute;
+width: 500px;
+height: 480px;
+left: 117px;
+top: 860px;
+border-radius: 30px;
+}
+.ceo{
+    position: absolute;
+width: 260px;
+height: 45px;
+left: 791px;
+top: 872px;
+
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 45px;
+color: #16171C;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+text-decoration:underline;
+}
+.text{
+    position: absolute;
+width: 462px;
+height: 306px;
+left: 791px;
+top: 979px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+opacity: 0.5;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: absolute;
+width: 1440px;
+height: 1200px;
+left: 0px;
+top: 1468px;
+background: #FFFFFF;
+}
+.logo2{
+position: absolute;
+width: 98px;
+height: 82px;
+left: 80px;
+top: 900px;
+}
+.menu{
+    position: absolute;
+width: 217px;
+height: 32px;
+left: 70px;
+top: 1000px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+letter-spacing: 3px;
+text-decoration: underline;
+color: #4E5DC0;
+}
+.menuList{
+position: absolute;
+width: 209px;
+height: 64px;
+left: 70px;
+top: 1020px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 32px;
+}
+.add{
+    position: absolute;
+width: 92px;
+height: 32px;
+left: 400px;
+top: 850px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+color: #4E5DC0;
+letter-spacing: 3px;
+}
+.adddesc{
+    position: absolute;
+    width: 335px;
+height: 96px;
+left:335px;
+top: 890px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 32px;
+color: #999999;
+}
+.mail{
+    position: absolute;
+    width: 61px;
+    height: 32px;
+    left: 400px;
+    top: 983px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 32px;
+color:#4E5DC0;
+letter-spacing: 3px;
+}
+.maildesc{
+position: absolute;
+width: 185px;
+height: 32px;
+left: 400px;
+top: 1010px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 32px;
+color:#999999;
+}
+.Mainmenu{
+    position: absolute;
+width: 57px;
+height: 32px;
+left: 825px;
+top: 850px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 32px;
+color: #4E5DC0;
+letter-spacing: 3px;
+}
+.footerTeam{
+position: absolute;
+width: 69px;
+height: 128px;
+left: 825px;
+top: 900px;
+color:#999999;
+}
+.footerAboutus{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 825px;
+    top: 920px;
+    color:#999999;
+ }
+ .footerCourses{
+        position: absolute;
+        width: 69px;
+        height: 128px;
+        left: 825px;
+        top: 940px;
+        color:#999999;
+ }
+ .footerContact{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 825px;
+    top: 960px;
+    color:#999999;
+ }
+ .fb{
+    position: absolute;
+width: 9.33px;
+height: 16px;
+left: 1229px;
+top: 870px;
+background-color: darkblue;
+border-radius: 5px;
+ }
+ .twi{
+    position: absolute;
+width: 16px;
+height: 13px;
+left: 1250px;
+top: 873px;
+background-color: darkblue;
+border-radius: 5px;
+ }
+ .insta{
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 1275px;
+top: 870px;
+background-color: darkblue;
+border-radius: 5px;
+}
